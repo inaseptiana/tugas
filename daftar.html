@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- daftar -->
+    <div class="container">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-6">
+        <form>
+          <fieldset>
+            <legend>Gabung menjadi member kami</legend>
+            <div class="mb-3">
+              <label for="example@gmail.com" class="form-label">Email</label>
+              <input type="text" id="email1" class="form-control" placeholder="example@gmail.com" />
+            </div>
+            <div class="mb-3">
+                <label for="examplefullName" class="form-label">Full Name</label>
+                <input type="text" id="FullName" class="form-control"/>
+            </div>
+            <div class="mb-3">
+                <label for="exampletanggal" class="form-label">Tanggal Lahir</label>
+                <input type="number" id="Tanggal" class="form-control" placeholder="09-10-1995" />
+            </div>
+            <div class="mb-3">
+                <label for="examplepassword" class="form-label">Password</label>
+                <input type="text" id="password" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label for="examplepassword" class="form-label">Konfirmasi Password</label>
+                <input type="text" id="konfirmasipassword" class="form-control" />
+            </div>
+            
+            <button onclick="daftar()" id="btn-daftar" type="submit" class="btn" style="background-color:#ff9f29;">Daftar</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <!-- akhir daftar -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="daftar.js"></script>
+  </body>
+</html>
